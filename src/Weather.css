@@ -1,0 +1,46 @@
+/* Weather.css */
+/* App.css (or any other CSS file you're using) */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .weather-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1rem;
+  }
+  
+  .weather-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .weather-description {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .weather-temperature {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .weather-container:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
